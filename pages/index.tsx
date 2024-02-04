@@ -188,9 +188,6 @@ const Home: NextPage = () => {
       {/* ... other content ... */}
     </div>
   );
-};
-
-export default IndexPage;
         <div>
 
           
