@@ -8,27 +8,27 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Generate your next SOP in seconds."
+            content="Generate your APA Citation in seconds."
           />
-          <meta property="og:site_name" content="SOP Generator" />
+          <meta property="og:site_name" content="APA Citation Generator" />
           <meta
             property="og:description"
-            content="Generate your next SOP in seconds."
+            content="Generate your APA Citation in seconds."
           />
-          <meta property="og:title" content="SOP Generator" />
+          <meta property="og:title" content="APA Citation Generator" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="SOP Generator" />
+          <meta name="twitter:title" content="APA Citation Generator" />
           <meta
             name="twitter:description"
-            content="Generate your next SOP in seconds."
+            content="Generate your APA Citation in seconds."
           />
           <meta
             property="og:image"
-            content="https://SOP Generator/og-image.png"
+            content="https://APA Citation Generator/og-image.png"
           />
           <meta
             name="twitter:image"
-            content="https://SOP Generator/og-image.png"
+            content="https://APA Citation Generator/og-image.png"
           />
           {/* Add the Google AdSense script here */}
           <script

@@ -1,8 +1,8 @@
-# [SOP Generator](https://www.twitterbio.com/)
+# [APA Citation Generator](https://www.twitterbio.com/)
 
 This project generates Twitter bios for you using AI.
 
-[![Free SOP Generator](./public/screenshot.png)](https://www.twitterbio.com)
+[![FreeAPA Citation Generator](./public/screenshot.png)](https://www.twitterbio.com)
 
 ## How it works
 
