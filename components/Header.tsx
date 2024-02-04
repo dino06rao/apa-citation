@@ -1,28 +1,37 @@
-import Link from 'next/link';
-import Github from './GitHub';
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Header() {
+  useEffect(() => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (err) {
+      console.error(err);
+    }
+  }, []);
+
   return (
     <header className="flex justify-between items-center w-full mt-5 border-b-2 pb-7 sm:px-4 px-2">
       <Link href="/" className="flex space-x-3">
-        <img
+        <Image
           alt="header text"
-          src="/write.svg"
-          className="sm:w-9 sm:h-9 w-8 h-8"
+          src="/writingIcon.png"
+          className="sm:w-12 sm:h-12 w-8 h-8"
+          width={32}
+          height={32}
         />
-        <h1 className="sm:text-3xl text-2xl font-bold ml-2 tracking-tight">
-          twitterbio.io
+        <h1 className="sm:text-4xl text-2xl font-bold ml-2 tracking-tight">
+          SOP Generator
         </h1>
       </Link>
-      <a
-        className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100"
-        href="https://github.com/Nutlope/twitterbio"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Github />
-        <p>Star on GitHub</p>
-      </a>
+      {/* Google AdSense Ad Unit */}
+      <ins className="adsbygoogle"
+           style={{ display: 'block' }}
+           data-ad-client="ca-pub-1126540952570363"
+           data-ad-slot="1694372343"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
     </header>
   );
 }
