@@ -203,6 +203,28 @@ export default IndexPage;
 
     <p>For those interested in MLA format, the Citation Machine MLA Guide is a valuable resource. Additionally, the Citation Machine website offers an APA formatter, a handy tool for generating APA citations, along with guidance on other citation styles.</p>
 
+    import type { NextPage } from "next";
+// ... other imports ...
+
+const Home: NextPage = () => {
+      {/* Section for APA Citation and Formatting Guide */}
+      <div>
+        <h2 className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto" ref={bioRef}>
+          Mastering APA Citation and Formatting: A Detailed Guide
+        </h2>
+        {/* ... guide content ... */}
+      </div>
+
+      {/* Insert the Score component here if needed */}
+      {/* <Score /> */}
+
+      {/* ... remaining content ... */}
+    </div>
+  );
+};
+
+export default Home;
+
     <h2
                   className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto"
                   ref={bioRef}
