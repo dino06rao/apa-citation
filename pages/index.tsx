@@ -12,7 +12,7 @@ import LoadingDots from "../components/LoadingDots";
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   const [bio, setBio] = useState("");
-  const [vibe, setVibe] = useState<VibeType>("Professional");
+  const [vibe, setVibe] = useState<VibeType>("APA");
   const [generatedBios, setGeneratedBios] = useState<String>("");
 
   const bioRef = useRef<null | HTMLDivElement>(null);
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
   };
 
   const prompt = `Generate 2 ${vibe} College Statement of Purpose and clearly labeled "1." and "2.". ${
-    vibe === "Funny"
+    vibe === "AMA"
       ? "Make sure there is a joke in there and it's a little ridiculous."
       : null
   }
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Statement of Purpose (SOP) Generator</title>
+        <title>APA Citation Generator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -81,9 +81,9 @@ const Home: NextPage = () => {
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
         
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Generate your Statement of Purpose using AI
+          Free APA Citation Generator 
         </h1>
-        <p className="text-slate-500 mt-5">18,023 SOPs generated so far.</p>
+        <p className="text-slate-500 mt-5">98 Million Citations generated so far.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
@@ -94,9 +94,9 @@ const Home: NextPage = () => {
               className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
-              Add your details{" "}
+              Add  details{" "}
               <span className="text-slate-500">
-                (write a few sentences about yourself like you would in SOP)
+                Enter or paste a web address, book title, journal, video for Citation
               </span>
               .
             </p>
@@ -123,7 +123,7 @@ const Home: NextPage = () => {
               className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               onClick={(e) => generateBio(e)}
             >
-              Generate your SOP &rarr;
+              Generate your Citation &rarr;
             </button>
           )}
           {loading && (
@@ -149,7 +149,7 @@ const Home: NextPage = () => {
                   className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto"
                   ref={bioRef}
                 >
-                  Your generated SOPs
+                  Your generated Citations
                 </h2>
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
@@ -162,7 +162,7 @@ const Home: NextPage = () => {
                         className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
                         onClick={() => {
                           navigator.clipboard.writeText(generatedBio);
-                          toast("SOP copied to clipboard", {
+                          toast("Citation copied to clipboard", {
                             icon: "✂️",
                           });
                         }}
