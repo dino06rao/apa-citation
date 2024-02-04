@@ -8,7 +8,6 @@ import Footer from "../components/Footer";
 import Github from "../components/GitHub";
 import Header from "../components/Header";
 import LoadingDots from "../components/LoadingDots";
-import pricing from "../components/pricing";
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
