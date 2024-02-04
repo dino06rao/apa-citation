@@ -176,6 +176,29 @@ const Home: NextPage = () => {
             </>
           )}
         </div>
+        <div>
+    <h2>Mastering APA Citation and Formatting: A Detailed Guide</h2>
+    <p>This comprehensive guide is designed to help you understand and apply the 7th edition of the APA (American Psychological Association) formatting and citation style. It includes essential information on referencing, various citation formats for different types of sources, and additional useful tips.</p>
+
+    <p>For those interested in MLA format, the Citation Machine MLA Guide is a valuable resource. Additionally, the Citation Machine website offers an APA formatter, a handy tool for generating APA citations, along with guidance on other citation styles.</p>
+
+    <h2>Ethical Research Practices:</h2>
+    <p>In academic writing, such as research papers or projects, it's common to incorporate the work of others to support your own ideas. Ethical research practices require acknowledging these contributions through proper citation, thereby avoiding plagiarism.</p>
+
+    <h2>Understanding Plagiarism:</h2>
+    <p>Plagiarism, from the Latin word 'plagiare' meaning 'to kidnap,' refers to the unauthorized use of someone else's work as your own without giving due credit to the original author. This unethical practice can have serious consequences. However, plagiarism is preventable by including accurate citations and references in your research.</p>
+
+    <h2>Citations and References Explained:</h2>
+    <p>Whenever you use information from another person's work, whether it's a direct quote, paraphrased content, images, or other material, it's crucial to cite these sources. This section of the guide will teach you how to effectively create citations and references.</p>
+
+    <p>In APA style, citations appear within the text of your paper (in-text citations) and are concise. They typically include the author's last name, the year of publication, and, if applicable, page numbers. These in-text citations correspond to more detailed references found at the end of your paper, which provide complete information about the sources. References are organized alphabetically by the author's last name.</p>
+
+    <p>An APA in-text citation generally contains three key elements: the author(s)' last names, the publication year, and sometimes the specific page or location of the cited information. The reference entries include more comprehensive details like the author(s)' full names, publication year, title of the work, and the URL or page range if applicable.</p>
+
+    <h2>Conclusion:</h2>
+    <p>This guide aims to equip you with the knowledge and tools to accurately cite sources using APA style, ensuring the integrity and credibility of your academic work. For quick and easy citation generation, consider using the Citation Machine citation generator available on their homepage. Remember, proper citation is not just a formal requirement; it's a practice of academic honesty and respect for the intellectual contributions of others.</p>
+</div>
+
       </main>
       <Footer />
     </div>
