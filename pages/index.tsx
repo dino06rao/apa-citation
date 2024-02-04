@@ -176,7 +176,22 @@ const Home: NextPage = () => {
             </>
           )}
         </div>
+        import Component from '../path/to/index';
+
+const MyPage = () => {
+  return (
+    <div>
+      {/* other content */}
+      <Component />
+      {/* other content */}
+    </div>
+  );
+};
+
+export default MyPage;
         <div>
+
+          
         <h2
                   className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto"
                   ref={bioRef}
