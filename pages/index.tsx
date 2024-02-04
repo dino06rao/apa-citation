@@ -107,7 +107,8 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
             placeholder={
-              "e.g. I am Hema currently a student of Chemical Engineering at University of Delhi and would be graduating this fall and would like to apply for MS in Biomedical Engineering at MIT."
+              "👋 Start here! Cite websites, books, journals, and videos automatically -- just search with the title or an identifier.
+              Tip: use the ISBN, ISSN, DOI, or URL for the best accuracy."
             }
           />
           <div className="flex mb-5 items-center space-x-3">
