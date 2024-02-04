@@ -2,7 +2,7 @@
 
 This project generates Twitter bios for you using AI.
 
-[![FreeAPA Citation Generator](./public/screenshot.png)](https://www.twitterbio.com)
+[![Free APA Citation Generator](./public/screenshot.png)](https://www.twitterbio.com)
 
 ## How it works
 
