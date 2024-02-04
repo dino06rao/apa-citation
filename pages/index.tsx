@@ -23,12 +23,12 @@ const Home: NextPage = () => {
     }
   };
 
-  const prompt = `Generate 2 ${vibe} College Statement of Purpose and clearly labeled "1." and "2.". ${
+  const prompt = `Generate ${vibe} style citation. ${
     vibe === "AMA"
-      ? "Make sure there is a joke in there and it's a little ridiculous."
+      ? "Make sure it is in AMA citation style."
       : null
   }
-      Make sure each generated Statement of Purpose is less than 5000 characters, has formal sentences that are found in Statement of Purposes, and base them on this context: ${bio}${
+      Make sure each generated citation is less than 300 characters, has format that are found in citation, and base them on this context: ${bio}${
     bio.slice(-1) === "." ? "" : "."
   }`;
 
