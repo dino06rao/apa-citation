@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       ? "Make sure it is in AMA citation style."
       : null
   }
-      Make sure each generated citation is less than 300 characters, has format that are found in citation, and base them on this context: ${bio}${
+  create a complete citation, has format of citation, when more info is needed ask user and base it on this context: ${bio}${
     bio.slice(-1) === "." ? "" : "."
   }`;
 
