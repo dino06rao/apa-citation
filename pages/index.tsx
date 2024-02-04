@@ -177,7 +177,10 @@ const Home: NextPage = () => {
           )}
         </div>
         <div>
-    <h2>Mastering APA Citation and Formatting: A Detailed Guide</h2>
+    <h2
+                  className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto"
+                  ref={bioRef}
+                  Mastering APA Citation and Formatting: A Detailed Guide</h2>
     <p>This comprehensive guide is designed to help you understand and apply the 7th edition of the APA (American Psychological Association) formatting and citation style. It includes essential information on referencing, various citation formats for different types of sources, and additional useful tips.</p>
 
     <p>For those interested in MLA format, the Citation Machine MLA Guide is a valuable resource. Additionally, the Citation Machine website offers an APA formatter, a handy tool for generating APA citations, along with guidance on other citation styles.</p>
