@@ -8,6 +8,8 @@ import Footer from "../components/Footer";
 import Github from "../components/GitHub";
 import Header from "../components/Header";
 import LoadingDots from "../components/LoadingDots";
+import score from "../components/score";
+
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
@@ -176,19 +178,20 @@ const Home: NextPage = () => {
             </>
           )}
         </div>
-        import Component from '../path/to/index';
-
-const MyPage = () => {
+        const IndexPage = () => {
   return (
     <div>
-      {/* other content */}
-      <Component />
-      {/* other content */}
+      {/* ... other content ... */}
+
+      <Score /> {/* Insert the Score component here */}
+
+      {/* ... other content ... */}
     </div>
   );
 };
 
-export default MyPage;
+export default IndexPage;
+
         <div>
 
           
